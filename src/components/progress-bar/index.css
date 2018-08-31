@@ -1,0 +1,14 @@
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.progress-bar__indicator {
+  width: 100%;
+  height: 20px;
+  background-color: #1CDE56;
+  transform: translateX(-100%);
+  transition: transform .3s linear;
+}

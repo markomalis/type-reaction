@@ -1,0 +1,29 @@
+.letter-canvas {
+  display: block;
+  width: 200px;
+  height: 230px;
+  background-color: #6C7072;
+  color: #73D216;
+  margin: 0 auto;
+  border-radius: 14px;
+  position: relative;
+}
+
+.letter-canvas__content {
+  width: 180px;
+  height: 190px;
+  position: absolute;
+  background-color: #2E3436;
+  border-radius: 14px;
+  top: 10px;
+  left: 10px;
+}
+
+.letter-canvas__value {
+  font-family: monospace;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 190px;
+  line-height: 190px;
+}
